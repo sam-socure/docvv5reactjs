@@ -4,7 +4,7 @@ import { startDocV } from "./api";
 export default function LandingPage({ onStart }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [mobile, setMobile] = useState("+14155725670");
+  const [mobile, setMobile] = useState("");
 
   const handleClick = async () => {
     setLoading(true);
